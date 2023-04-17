@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Attack Of The Clones!",
+  "version": "1.0",
+  "description": "This is the browser extension for Attack Of The Clones!",
+  "permissions": [
+    "tabs",
+    "*://*/*"
+  ],
+  "action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  }
+}

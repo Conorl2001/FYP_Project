@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Attack Of The Clones!</title>
+	<style>
+		/* Styles for the title bar */
+        html {
+            position: relative;
+            min-height: 100%;
+        }
+		.title-bar {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+		}
+		.title-bar h1 {
+			margin: 0;
+			font-size: 24px;
+			font-weight: normal;
+		}
+		.title-bar h2 {
+			margin: 0;
+			font-size: 16px;
+			font-weight: normal;
+		}
+        body {
+        width: 200px;
+        height: 225px;
+        background-color:lightslategrey;
+        }
+        .activate {
+            display: flex;
+            justify-content: center;
+        }
+        #runScan {
+            background-color: white;
+            border: none;
+            color: black;
+            padding: 5px 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        #runScan:hover {
+            background-color: whitesmoke;
+        }
+        footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 50px;
+            text-align: center;
+        }
+	</style>
+</head>
+<body>
+	<div class="title-bar">
+		<h1>Attack Of The Clones!</h1>
+		<h2>Fraudulent Website Detection Tool</h2>
+	</div>
+    <div class="activate">
+        <button id="runScan">Scan Website</button>
+    </div>
+        <footer>
+            Project by Conor Lewis C00246763<br>Supervised by Chris Staff
+        </footer>
+        <script src="popup.js"></script>
+    </body>
+</html>
